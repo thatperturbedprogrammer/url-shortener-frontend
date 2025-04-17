@@ -11,7 +11,7 @@ export default function UrlShortener() {
     setError("");
     setShortUrl("");
     try {
-      const response = await fetch("http://localhost:5000/shorten", {
+      const response = await fetch("https://url-shortener-backend-6ti4.onrender.com/shorten", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
